@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-color{
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-400 inline-block;
+}
+
+body{
+  background-color: black;
+}
+.bg-primary-color{
+  @apply  bg-gradient-to-r from-orange-400 to-pink-400 inline-block;
+}
+.type-animation-color {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500 inline-block;
+}
